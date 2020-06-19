@@ -25,7 +25,7 @@ One last thing that really stands out to me before I go into a mini-rant about h
 
 {{< tweet 1272608117604397063>}}
 
-This way of working is tried and true. We collectively took a detour with really, really complex things like front end frameworks, graph query languages and the like, but it's good to see that a really georgous, fast (< 100ms interaction time between "page" loads) can and was built using the classic three tier architecture. What's funny is I was also swept up in the hype around 2016/2017 with react and friends and I regret introducing it to my company at the time, it's a lot of garbage for not a lot of gain. You can essentially emulate the perceived performance from a single page app with the following list of libraries:
+This way of working is tried and true. We collectively took a detour with really, really complex things like front end frameworks, graph query languages and the like, but it's good to see that a really gorgeous, fast (< 100ms interaction time between "page" loads) can and was built using the classic three tier architecture. What's funny is I was also swept up in the hype around 2016/2017 with react and friends and I regret introducing it to my company at the time, it's a lot of garbage for not a lot of gain. You can essentially emulate the perceived performance from a single page app with the following list of libraries:
 
 - [instant.page](https://instant.page)
 - [turbolinks](https://github.com/turbolinks/turbolinks)
