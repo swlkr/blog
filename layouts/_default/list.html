@@ -1,0 +1,6 @@
+{{ range .Pages }}
+  <vstack spacing=xxs>
+    <a stretch href="{{.Permalink}}">{{.Title}}</a>
+    <div class="muted">{{.Date.Format "2006-01-02"}}</div>
+  </vstack>
+{{ end }}
