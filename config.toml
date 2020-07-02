@@ -2,3 +2,8 @@ baseURL = "http://swlkr.github.io/"
 languageCode = "en-us"
 title = "swlkr"
 enableRobotsTXT = true
+pygmentsUseClasses = true
+
+[markup]
+  [markup.highlight]
+    codeFences = true
