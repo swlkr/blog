@@ -6,4 +6,5 @@ pygmentsUseClasses = true
 
 [markup]
   [markup.highlight]
+    style = "monokai"
     codeFences = true
