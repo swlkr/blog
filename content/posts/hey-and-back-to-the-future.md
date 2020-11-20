@@ -23,7 +23,9 @@ One last thing that really stands out to me before I go into a mini-rant about h
 
 ## HTML from the server back to the future
 
-{{< tweet 1272608117604397063>}}
+{{< rawhtml >}}
+<blockquote class="twitter-tweet" data-twitter-extracted-i1604952937026531366="true"><p lang="en" dir="ltr">HEY’s UI is 100% HTML over the wire. We render plain-old HTML pages on the server and send them to your browser encoded as text/html. No JSON APIs, no GraphQL, no React—just form submissions and links.</p>— Sam Stephenson (@sstephenson) <a href="https://twitter.com/sstephenson/status/1272608117604397063?ref_src=twsrc%5Etfw">June 15, 2020</a></blockquote>
+{{< /rawhtml >}}
 
 This way of working is tried and true. We collectively took a detour with really, really complex things like front end frameworks, graph query languages and the like, but it's good to see that a really gorgeous, fast (< 100ms interaction time between "page" loads) can and was built using the classic three tier architecture. What's funny is I was also swept up in the hype around 2016/2017 with react and friends and I regret introducing it to my company at the time, it's a lot of garbage for not a lot of gain. You can essentially emulate the perceived performance from a single page app with the following list of libraries:
 
