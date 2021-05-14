@@ -5,6 +5,8 @@ date: 2021-05-13
 
 # Getting started with roda
 
+TL;DR I made this handy [roda-starter repo](https://github.com/swlkr/roda-starter) so you can make ruby websites that run faster and use less memory than rails!
+
 I use docker in anger and in development so that's where I'll be starting:
 
 Go ahead and install docker if you don't have it already:
