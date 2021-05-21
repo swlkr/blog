@@ -1,9 +1,9 @@
 ---
-title: Vanilla js direct upload s3
+title: Vanilla js direct upload to S3
 date: 2021-05-20
 ---
 
-# Vanilla js direct upload s3
+# Vanilla js direct upload to S3
 
 I couldn't find a great guide for getting s3 direct uploadings working with vanilla js and `fetch` so here is one
 
