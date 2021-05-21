@@ -94,7 +94,7 @@ const s3 = {
   },
 
   uploadFrom: function(selector) {
-    const input = document.querySelector('input[type="file"]');
+    const input = document.querySelector(selector);
     input.addEventListener('change', (e) => {
       const file = e.target.files[0]
 
