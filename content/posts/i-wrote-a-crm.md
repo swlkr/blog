@@ -7,7 +7,7 @@ date: 2021-04-20
 
 TL;DR I wrote a CRUD-tastic "CRM" web app to learn roda, sequel and turbo
 
-[Check it out here](https://tinycrm.swlkr.com)
+[Check it out here](https://crm.isatiny.app)
 [Check out the source here](https://github.com/swlkr/tinycrm)
 
 It’s free to use, in fact it’s so free that you don’t even have to sign in to use it, just go to tinycrm.swlkr.com and BAM there it is.
