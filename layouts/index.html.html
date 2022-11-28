@@ -11,53 +11,18 @@
     <link rel="stylesheet" href="/ridge.css" />
   </head>
   <body>
-    <vstack spacing=m>
-      <img alt="profile image" class="br-100 h3 w3 dib" src="/profile2.png" />
-
-      <div>
-        <p>
-          Hey, I'm Sean
-        </p>
-
-        <p>
-          I take hikes, make sites and use sqlite in production.
-        </p>
-
-        <p>
-          Follow me on <a href="https://twitter.com/swlkr">twitter</a>, subscribe on <a href="https://www.youtube.com/channel/UC1fQKDM22ElkLR4DxJbQNWw">youtube</a> or <a href="https://twitch.tv/swlkr">twitch</a> or check out my open source projects on <a href="https://github.com/swlkr">github</a>.
-        </p>
-      </div>
-
-      <vstack spacing=s class=pb4>
-        <h3>projects</h3>
-
-        <div>
-          <a href="https://allyourpasswords.com">all your passwords</a>
-          <div class="muted">A password manager</div>
-        </div>
-
-        <div>
-          <a href="https://boomtownlist.com">boomtowns</a>
-          <div class="muted">A list of the fastest growing towns in the United States</div>
-        </div>
-
-        <div>
-          <a href="https://ping.isatiny.app">ping</a>
-          <div class="muted">An uptime monitor</div>
-        </div>
-
-        <div>
-          <a href="https://janetdocs.com">janet docs</a>
-          <div class="muted">A community documentation site for the janet programming language</div>
-        </div>
+    <vstack spacing=l>
+      <vstack align-x=center>
+        <img alt="profile image" class="br-100 h3 w3 dib" src="/profile2.png" />
+        <div>Sean Walker</div>
       </vstack>
-
-      <vstack spacing=s class="pb4">
-        <h3>posts</h3>
-
-        {{ range .Pages }}
-          {{ .Render "list"}}
-        {{ end }}
+    
+      <vstack align-x=center>
+        <a href="https://twitter.com/swlkr">twitter</a>
+        <a href="https://www.youtube.com/channel/UC1fQKDM22ElkLR4DxJbQNWw">youtube</a>
+        <a href="https://twitch.tv/swlkr">twitch</a>
+        <a href="https://github.com/swlkr">github</a>
+        <a href="/posts">blog</a>
       </vstack>
     </vstack>
   </body>

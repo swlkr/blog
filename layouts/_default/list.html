@@ -1,6 +1,22 @@
-{{ range .Pages }}
-  <vstack spacing=xxs>
-    <a stretch href="{{.Permalink}}">{{.Title}}</a>
-    <div class="muted">{{.Date.Format "2006-01-02"}}</div>
-  </vstack>
-{{ end }}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>swlkr</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Sean Walker" />
+    <meta name="description" content="My name is Sean and I write software" />
+    <link rel="stylesheet" media="(prefers-color-scheme: light), (prefers-color-scheme: none)" href="/ridge-light.css" />
+    <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="/ridge-dark.css" />
+    <link rel="stylesheet" href="/ridge.css" />
+  </head>
+  <body>
+    <h3>Sean Walker's Blog</h3>
+    {{ range .Pages }}
+      <vstack spacing=xxs>
+        <a stretch href="{{.Permalink}}">{{.Title}}</a>
+        <div class="muted">{{.Date.Format "2006-01-02"}}</div>
+      </vstack>
+    {{ end }}
+  </body>
+</html>
