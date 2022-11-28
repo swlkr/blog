@@ -4,6 +4,7 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
+.hugo_build.lock
 
 # OSX
 .DS_Store
